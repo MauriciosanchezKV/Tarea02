@@ -1,10 +1,8 @@
-# 📱 Tarea02 - Flutter App
+Tarea02
 
 Aplicación móvil desarrollada en Flutter que implementa un sistema de autenticación de usuarios con manejo de estado global, persistencia de sesión y uso de recursos del dispositivo.
 
----
-
-## 🚀 Descripción del proyecto
+Descripción del proyecto
 
 Esta aplicación permite a los usuarios:
 
@@ -15,19 +13,16 @@ Esta aplicación permite a los usuarios:
 - Acceder a su perfil
 - Obtener ubicación del dispositivo (GPS)
 
----
 
-## 🧠 Arquitectura utilizada
+Arquitectura utilizada
 
 El proyecto sigue una arquitectura sencilla basada en separación de responsabilidades:
 
-- **services/** → lógica de negocio (auth, ubicación)
-- **providers/** → estado global de la aplicación
-- **screens/** → interfaz de usuario
+services → lógica de negocio (auth, ubicación)
+providers → estado global de la aplicación
+screens → interfaz de usuario
 
----
-
-## ⚙️ Tecnologías utilizadas
+Tecnologías utilizadas
 
 - Flutter
 - Dart
@@ -35,33 +30,33 @@ El proyecto sigue una arquitectura sencilla basada en separación de responsabil
 - Flutter Secure Storage (almacenamiento seguro)
 - Geolocator (geolocalización)
 
----
 
-## 🔐 Funcionalidades principales
 
-### ✔ Autenticación
+Funcionalidades principales
+
+Autenticación
 - Registro de usuarios
 - Login con validación de credenciales
 
-### ✔ Sesión persistente
+Sesión persistente
 - Uso de token almacenado en SecureStorage
 - Restauración automática de sesión al iniciar la app
 
-### ✔ Estado global
+Estado global
 - Implementación con Provider
 - Actualización reactiva de la interfaz
 
-### ✔ Perfil de usuario
+Perfil de usuario
 - Visualización de datos del usuario autenticado
 - Visualización del token de sesión
 
-### ✔ Geolocalización
+Geolocalización
 - Solicitud de permisos del dispositivo
 - Obtención de ubicación GPS bajo demanda
 
 ---
 
-## 🔒 Seguridad
+Seguridad
 
 - Almacenamiento seguro de tokens con `flutter_secure_storage`
 - Validación de acceso antes de mostrar pantallas protegidas
@@ -69,7 +64,7 @@ El proyecto sigue una arquitectura sencilla basada en separación de responsabil
 
 ---
 
-## 📍 Permisos del sistema
+Permisos del sistema
 
 La aplicación solicita permisos de ubicación:
 
@@ -78,7 +73,7 @@ La aplicación solicita permisos de ubicación:
 
 ---
 
-## ▶️ Cómo ejecutar el proyecto
+Cómo ejecutar el proyecto
 
 1. Clonar el repositorio:
 ```bash
