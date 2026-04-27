@@ -1,0 +1,36 @@
+name: tarea02
+description: Aplicación móvil Tarea02 con autenticación, estado global y geolocalización
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.2.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # Estado global
+  provider: ^6.0.5
+
+  # Almacenamiento seguro de sesión
+  flutter_secure_storage: ^9.0.0
+
+  # Geolocalización (requisito de la tarea)
+  geolocator: ^13.0.1
+
+  # Permisos del dispositivo
+  permission_handler: ^11.3.1
+
+  cupertino_icons: ^1.0.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
